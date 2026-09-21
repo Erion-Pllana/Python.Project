@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97d719bf-a20d-408c-93cc-902a2f4764a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fittrack/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/init_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/seed_demo_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/__init_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/announcement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/attendance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/member_workout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/membership.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/notification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/progress_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/workout_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/workout_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/workout_plan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/routers/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/routers/health.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/announcement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/attendance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/member_workout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/membership.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/notification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/progress_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/workout_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/workout_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/workout_plan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/security/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/security/dependencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/security/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/auth_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/member_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/database/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/database/seed.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/frontend/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_health.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3JeCZI1kxL9Hu29vHHs5G3BPi3y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/pllan/Desktop/Python.Project"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pllan\Desktop\Python.Project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Python.Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-02acdf704d18-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28539.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97d719bf-a20d-408c-93cc-902a2f4764a5" name="Changes" comment="" />
+      <created>1790012200351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790012200351</updated>
+    </task>
+    <servers />
+  </component>
+</project>
