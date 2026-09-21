@@ -5,74 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97d719bf-a20d-408c-93cc-902a2f4764a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fittrack/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/init_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/seed_demo_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/database/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/__init_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/announcement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/attendance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/member.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/member_workout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/membership.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/payment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/progress_record.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/workout_exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/workout_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/models/workout_plan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/routers/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/routers/health.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/announcement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/attendance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/member.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/member_workout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/membership.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/payment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/progress_record.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/workout_exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/workout_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/schemas/workout_plan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/security/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/security/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/security/security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/auth_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/backend/services/member_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/database/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/database/seed.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/api_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/components/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/frontend/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_health.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
