@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97d719bf-a20d-408c-93cc-902a2f4764a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fittrack/tests/test_authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/backend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/backend/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/backend/routers/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/backend/schemas/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/backend/schemas/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/backend/security/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/backend/security/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/backend/services/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/backend/services/auth_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/frontend/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/frontend/api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/frontend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/frontend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/frontend/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/frontend/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fittrack/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/fittrack/tests/test_auth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -24,15 +24,16 @@ class Settings(BaseSettings):
 
     # ---- Streamlit frontend ----
     api_base_url: str = "http://127.0.0.1:8000"
+    cors_origins: str = "http://localhost:8501,http://127.0.0.1:8501"
 
-    # ---- MySQL database (wired now, used starting Step 3) ----
+    # ---- MySQL database ----
     db_host: str = "localhost"
     db_port: int = 3306
     db_user: str = "fittrack_user"
     db_password: str = "change_me"
     db_name: str = "fittrack"
 
-    # ---- Security (wired now, used starting Step 2) ----
+    # ---- Security ----
     secret_key: str = "change_this_to_a_long_random_string"
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 60
@@ -53,5 +54,4 @@ class Settings(BaseSettings):
     )
 
 
-# Single shared settings instance, imported everywhere else.
 settings = Settings()

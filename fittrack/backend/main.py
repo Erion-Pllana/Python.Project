@@ -14,12 +14,16 @@ from backend.routers import auth, health
 app = FastAPI(
     title=settings.app_name,
     description="FitTrack -- Fitness Center / Gym Management System API",
-    version="0.1.0",
+    version="0.3.0",
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        origin.strip()
+        for origin in settings.cors_origins.split(",")
+        if origin.strip()
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -31,4 +35,7 @@ app.include_router(auth.router)
 
 @app.get("/")
 def root():
-    return {"application": settings.app_name, "status": "running"}
+    return {
+        "application": settings.app_name,
+        "status": "running",
+    }
